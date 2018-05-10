@@ -39,12 +39,12 @@ Reference: https://kafka.apache.org/quickstart
 
 ## How to Run netty-http-kafka
 ```
-Setup Apache Kafka Configuration First 
-Import “netty-http-kafka” as Existing maven Project 
-Right Click -> Maven -> Update Project (Maven should be configured and system should be connected with internet)
-Run NettyWebServerMain.java. Right Click ->Run As -> Java application
-Access the server through browser
-Step 5: Verify Query parameter in Kafka Consumer Console
+Step 1: Setup Apache Kafka Configuration First.
+Step 2: Import netty-http-kafka as Existing maven Project.
+Step 3: Right Click -> Maven -> Update Project (Maven should be configured and system should be connected with internet).
+Step 4: Run NettyWebServerMain.java. Right Click ->Run As -> Java application.
+Step 5: Access the server through browser.
+Step 6: Verify Query parameter in Kafka Consumer Console.
 ```
 
 > **Note:** Find the How to Run netty-http-kafka Document below.

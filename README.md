@@ -1,4 +1,10 @@
 # netty-http-kafka
+Build a HTTP Server using Java Netty that accepts a JSON object and saves it into a Kafka queue. Setup netty / kafka on the dev machine in order to do that.
+
+1. Build a HTTP Server
+2. Receive query parameters from URL
+3. Convert the query parameter into Protobuff.
+4. Push the Protobuf object into kafka queue.
 
 ## Apache Kafka Configuration:
 
@@ -38,6 +44,7 @@ C:\apache\kafka_2.11-1.0.1\bin\windows>kafka-console-consumer --bootstrap-server
 Reference: https://kafka.apache.org/quickstart
 
 ## How to Run netty-http-kafka
+
 ```
 Step 1: Setup Apache Kafka Configuration First.
 Step 2: Import netty-http-kafka as Existing maven Project.

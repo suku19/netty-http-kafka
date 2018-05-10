@@ -32,7 +32,7 @@ C:\apache\kafka_2.11-1.0.1\bin\windows>kafka-console-producer --broker-list loca
 C:\apache\kafka_2.11-1.0.1\bin\windows>kafka-console-consumer --bootstrap-server localhost:9092 --topic test --from-beginning This is a message This is another message
 ```
 
-> **Note:** Find the Apache Kafka Configuration Document below.
+> **Note:** Find the Apache Kafka Configuration Document ->
 > [Apache Kafka Configuration](https://github.com/suku19/netty-http-kafka/blob/master/Apache%20Kafka%20Configuration.docx)
 
 Reference: https://kafka.apache.org/quickstart
@@ -47,5 +47,5 @@ Step 5: Access the server through browser.
 Step 6: Verify Query parameter in Kafka Consumer Console.
 ```
 
-> **Note:** Find the How to Run netty-http-kafka Document below.
+> **Note:** Find the How to Run netty-http-kafka Document ->
 > [How to Run netty-http-kafka](https://github.com/suku19/netty-http-kafka/blob/master/How%20to%20Run%20netty-http-kafka.docx)
